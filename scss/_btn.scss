@@ -1,0 +1,18 @@
+/*estilo de botones*/
+$colorpaleta1:#7a3401;
+$colorpaleta2:#b64d02;
+.btn1 {
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color:$colorpaleta1;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.btn1:hover{
+    background-color:$colorpaleta2;
+    transition: 0.5s;
+}
+/*fin de botones*/
