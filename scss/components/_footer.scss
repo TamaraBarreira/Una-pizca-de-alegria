@@ -1,9 +1,11 @@
 /*footer*/
 $colorpaleta1: #07280d;
-
+%posision{
+    position: fixed;
+}
 
 footer{
-    position: fixed;
+   @extend %posision;
     z-index: 300;
     bottom: 0;
     width: 90%;
@@ -14,7 +16,7 @@ footer{
 }
 
 .whatsapp {
-    position: fixed;
+    @extend %posision;
     width: 55px;
     height: 55px;
     line-height: 55px;

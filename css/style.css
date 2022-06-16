@@ -35,7 +35,7 @@
     text-decoration: none;
     --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%); }
   .nav__menu .nav__item::after {
-    content: "";
+    content: " ";
     display: block;
     background: #fff;
     width: 90%;
@@ -185,8 +185,10 @@ h2 {
 
 /* fin seccion about us*/
 /*footer*/
+footer, .whatsapp {
+  position: fixed; }
+
 footer {
-  position: fixed;
   z-index: 300;
   bottom: 0;
   width: 90%;
@@ -196,7 +198,6 @@ footer {
   color: #f2f2f2; }
 
 .whatsapp {
-  position: fixed;
   width: 55px;
   height: 55px;
   line-height: 55px;
