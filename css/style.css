@@ -84,9 +84,9 @@ body {
 
 /*header*/
 .hero {
-  margin-top: 7%;
+  margin-top: 0%;
   height: 100vh;
-  background-image: url(../multimedia/Imagenes/nenaportada.jpg);
+  background-image: url(../multimedia/Imagenes/nenaportada_34_11zon.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -95,7 +95,7 @@ body {
 
 /*titulos y subtitulos*/
 h2 {
-  color: #1d0c00; }
+  color: #ffffff; }
 
 .hero__texts {
   background: #07280d70;
@@ -109,11 +109,11 @@ h2 {
   .hero__texts .hero__title {
     padding-top: 10%;
     font-size: 50px;
-    color: #1d0c00; }
+    color: #ffffff; }
   .hero__texts .hero__subtitle {
     font-size: 30px;
     font-weight: 300;
-    color: #1d0c00;
+    color: #ffffff;
     padding-bottom: 15%; }
 
 /*Galeria*/
@@ -130,10 +130,10 @@ h2 {
   .titulo__galeria .subtitle {
     font-size: 30px;
     font-weight: 300;
-    color: #1d0c00; }
+    color: #ffffff; }
 
 .linea {
-  background: #07280d;
+  background: #b64d02;
   height: 5px;
   width: 100%;
   display: block; }
@@ -239,7 +239,7 @@ footer {
 /*fin de botones*/
 /*Alquileres-html*/
 .main-imagen {
-  background: url(../multimedia/Imagenes/manito.jpg) no-repeat;
+  background: url(../../multimedia/Imagenes/manito_29_11zon.webp) no-repeat;
   background-size: cover;
   background-position: 50% 50%;
   height: 100vh;
@@ -315,13 +315,11 @@ footer {
 .form-input {
   font-family: inherit;
   font-size: 1rem;
-  /*16px por defecto*/
-  padding: .8em 1em;
-  /* arriba y abajo - lados y en este caso tambien es de 16px x la variante em*/
-  outline: none;
+  padding: 0.8em 1em;
+  border-radius: 0.2em;
   border: none;
-  border: 1px solid #bbb0b0;
-  border-radius: 0.2em; }
+  outline: none;
+  border: 1px solid #bbb0b0; }
 
 .form-input--message {
   resize: none;
@@ -331,18 +329,18 @@ footer {
 
 .form-cta {
   font-family: inherit;
+  font-size: 1rem;
+  padding: 0.7 em 0;
+  border-radius: 0.2em;
+  border: none;
   background-color: #7a3401;
   color: #ffff;
-  border: none;
-  font-weight: 300;
-  font-size: 1rem;
-  padding: .7em 0;
-  border-radius: .2em;
-  cursor: pointer;
   font-weight: 400;
-  /*un poco mas pesada la fuente con esto*/ }
+  /*un poco mas pesada la fuente con esto*/
+  cursor: pointer; }
 
 .form-title {
+  color: #1d0c00;
   text-align: center;
   font-size: 1.9rem;
   margin-bottom: .4em; }
@@ -352,8 +350,12 @@ footer {
     font-size: 2rem; } }
 
 /*fin de formularios*/
+/*seccion de preguntas frecuentes*/
 .preguntasfrecuentes {
   margin-top: 60px; }
 
 .accordion {
   color: black; }
+
+.accordion-button {
+  background: nth #ffffff, #07280d, #7a3401, #b64d02, #07280d70, 2; }

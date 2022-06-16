@@ -1,6 +1,14 @@
+/*seccion de preguntas frecuentes*/
+@import "../base/listas";
+
+
 .preguntasfrecuentes{
     margin-top: 60px;
 }
 .accordion{
     color: black;
+}
+.accordion-button{
+    background: nth ($colores, 2 ) ;
+    
 }

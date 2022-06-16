@@ -3,7 +3,7 @@ $colorpaleta1: #07280d;
 /*Galeria*/
 .titulo__galeria{
     margin-top: 100%;
-    background: $colorbgtranparente;
+    background: nth($list: $colores, $n: 5 );
     margin-top: 15px;
     display: flex;
     width: 100%;
@@ -14,11 +14,11 @@ $colorpaleta1: #07280d;
     .subtitle{
     font-size: 30px;
     font-weight: 300;
-    color: $colortextos;
+    color: nth($list: $colores, $n: 1 );
     }
 }
 .linea {
-    background: $colorpaleta1;
+    background: nth($list: $colores, $n: 4 );
     height: 5px;
     width: 100%;
     display: block;

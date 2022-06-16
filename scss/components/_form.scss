@@ -1,4 +1,12 @@
 /*Inicio de formularios*/
+@mixin formulario ($borde) {
+    font-family: inherit;
+    font-size: 1rem;
+    padding: $borde;
+    border-radius: 0.2em;
+    border: none;
+    
+}
 .form{
     background-color: #f2f2f2;
     /* al tener un width de 90% y un max-w de 400px es responsive */
@@ -15,13 +23,10 @@
     grid-auto-columns: 100%;
 }
 .form-input {
-    font-family: inherit;
-    font-size: 1rem; /*16px por defecto*/
-    padding: .8em 1em;/* arriba y abajo - lados y en este caso tambien es de 16px x la variante em*/
+    @include formulario( 0.8em 1em);
     outline: none;
-    border: none;
     border: 1px solid #bbb0b0;
-    border-radius: 0.2em;
+
 }
 .form-input--message{
     resize: none; /*evito q el area del msj se deforme y crezca*/
@@ -29,19 +34,14 @@
     margin-bottom: .5em;
 }
 .form-cta {
-    font-family: inherit;
+    @include formulario(0.7 em 0);
     background-color: #7a3401;
     color: #ffff;
-    border: none;
-    font-weight: 300;
-    font-size: 1rem;
-    padding: .7em 0;
-    border-radius: .2em;
-    cursor: pointer;
     font-weight: 400; /*un poco mas pesada la fuente con esto*/
-
+    cursor: pointer;
 }
 .form-title{
+    color:nth($list: $colortextos, $n: 1 );
     text-align: center;
     font-size: 1.9rem;
     margin-bottom: .4em;

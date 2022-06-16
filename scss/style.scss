@@ -1,8 +1,5 @@
 
-$colortextos: #1d0c00;
-$colortextos2: #000000;
-$colorpaleta1: #07280d;
-$colorbgtranparente:#07280d70;
+@import 'base/listas';
 
 @import 'base/navbar';
 //reset
@@ -21,9 +18,9 @@ body {
 //fin de reset
 /*header*/
 .hero{
-    margin-top: 7%;
+    margin-top: 0%;
     height: 100vh;
-    background-image: url(../multimedia/Imagenes/nenaportada.jpg);
+    background-image:url(../multimedia/Imagenes/nenaportada_34_11zon.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -34,12 +31,12 @@ body {
 }
 /*titulos y subtitulos*/
 h2 {
-    color: $colortextos;
+    color: nth($list: $colores, $n: 1 );
 
 }
 
 .hero__texts {
-    background: $colorbgtranparente;
+    background: nth($list: $colores , $n: 5);
     margin-top: 15px;
     display: flex;
     width: 100%;
@@ -50,14 +47,15 @@ h2 {
     .hero__title {
         padding-top: 10%;
         font-size: 50px;
-        color: $colortextos;
+        color: nth($list: $colores, $n: 1 )
     }
     .hero__subtitle{
     font-size: 30px;
     font-weight: 300;
-    color: $colortextos;
-    padding-bottom: 15%
-    }
+    color: nth($list: $colores, $n: 1 );
+    padding-bottom: 15%;
+    
+}
 }
 
 
