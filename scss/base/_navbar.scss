@@ -80,9 +80,9 @@ $colorpaleta1: #07280d;
         clip-path: circle(100% at center);
     }
 }
-@media (max-width:600px){
+@media screen and (max-width:600px){
     .nav__logo{
-        width: 25%;
+        width: 30%;
         height: 80%;
     }
 }
