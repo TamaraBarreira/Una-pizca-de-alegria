@@ -72,64 +72,6 @@
     height: 80%; } }
 
 /*fin Estilos de Navbar*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
-
-body {
-  height: 125vh;
-  padding: 15px;
-  font-family: 'Nunito', sans-serif; }
-
-/*header*/
-.hero {
-  margin-top: 0%;
-  height: 100vh;
-  background-image: url(../multimedia/Imagenes/nenaportada_34_11zon.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  z-index: 200; }
-
-/*titulos y subtitulos*/
-h2 {
-  color: #ffffff; }
-
-.hero__texts {
-  background: #07280d70;
-  margin-top: 15px;
-  display: flex;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center; }
-  .hero__texts .hero__title {
-    padding-top: 10%;
-    font-size: 50px;
-    color: #ffffff; }
-  .hero__texts .hero__subtitle {
-    font-size: 30px;
-    font-weight: 300;
-    color: #ffffff;
-    padding-bottom: 15%; }
-
-@media screen and (max-width: 900px) {
-  header {
-    background-position: center; }
-  .servicio__cont {
-    justify-content: center;
-    flex-direction: column; }
-  .servicio__ind {
-    width: 100%;
-    text-align: center; }
-    .servicio__ind img {
-      width: 90%; }
-  .servicio__ind:nth-child(1), .servicio__ind:nth-child(2) {
-    margin-bottom: 60px; } }
-
 /*Galeria*/
 .titulo__galeria {
   margin-top: 100%;
@@ -175,6 +117,11 @@ h2 {
 
 /*fin de galeria*/
 /* seccion about us*/
+.titulo_services {
+  color: #07280d;
+  text-align: center;
+  padding: 2rem; }
+
 .about__services {
   background: #f2f2f2;
   padding-bottom: 30px; }
@@ -293,15 +240,13 @@ footer {
   justify-content: center;
   flex-direction: column;
   text-align: center; }
-
-.principal h1 {
-  font-size: 50px;
-  color: #7a3401; }
-
-.principal h2 {
-  font-size: 30px;
-  font-weight: 300;
-  color: #7a3401; }
+  .principal h1 {
+    font-size: 50px;
+    color: #7a3401; }
+  .principal h2 {
+    font-size: 30px;
+    font-weight: 300;
+    color: #7a3401; }
 
 .row2 {
   padding: 20px;
@@ -375,3 +320,61 @@ footer {
 .accordion-button {
   background: #07280d;
   color: #ffffff; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  height: 125vh;
+  padding: 15px;
+  font-family: 'Nunito', sans-serif; }
+
+/*header*/
+.hero {
+  margin-top: 0%;
+  height: 100vh;
+  background-image: url(../multimedia/Imagenes/nenaportada_34_11zon.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  z-index: 200; }
+
+/*titulos y subtitulos*/
+h2 {
+  color: #ffffff; }
+
+.hero__texts {
+  background: #07280d70;
+  margin-top: 15px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center; }
+  .hero__texts .hero__title {
+    padding-top: 10%;
+    font-size: 50px;
+    color: #ffffff; }
+  .hero__texts .hero__subtitle {
+    font-size: 30px;
+    font-weight: 300;
+    color: #ffffff;
+    padding-bottom: 15%; }
+
+@media screen and (max-width: 900px) {
+  header {
+    background-position: center; }
+  .servicio__cont {
+    justify-content: center;
+    flex-direction: column; }
+  .servicio__ind {
+    width: 100%;
+    text-align: center; }
+    .servicio__ind img {
+      width: 90%; }
+  .servicio__ind:nth-child(1), .servicio__ind:nth-child(2) {
+    margin-bottom: 60px; } }

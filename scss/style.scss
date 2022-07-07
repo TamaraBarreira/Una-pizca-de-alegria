@@ -2,6 +2,14 @@
 @import 'base/listas';
 
 @import 'base/navbar';
+@import 'base/galeria';
+@import 'components/services';
+@import 'components/footer';
+@import 'base/btn';
+@import 'components/alquileres';
+@import 'components/form';
+@import 'components/preguntasfrecuentes';
+
 //reset
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,700&display=swap');
 
@@ -81,10 +89,3 @@ h2 {
 
 
 
-@import 'base/galeria';
-@import 'components/services';
-@import 'components/footer';
-@import 'base/btn';
-@import 'components/alquileres';
-@import 'components/form';
-@import 'components/preguntasfrecuentes';

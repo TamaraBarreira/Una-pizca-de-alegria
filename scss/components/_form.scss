@@ -1,12 +1,7 @@
 /*Inicio de formularios*/
-@mixin formulario ($borde) {
-    font-family: inherit;
-    font-size: 1rem;
-    padding: $borde;
-    border-radius: 0.2em;
-    border: none;
-    
-}
+@import '../base/mixin';
+
+
 .form{
     background-color: #f2f2f2;
     /* al tener un width de 90% y un max-w de 400px es responsive */
