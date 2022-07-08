@@ -179,8 +179,8 @@ footer {
 /*fin footer*/
 /*estilo de botones*/
 .btn1 {
-  height: 45px;
-  width: 35%;
+  height: 25%;
+  width: 50%;
   border: none;
   outline: none;
   background-color: #7a3401;
@@ -189,6 +189,14 @@ footer {
   border-radius: 60px; }
 
 .btn1:hover {
+  background-color: #b64d02;
+  transition: 0.5s; }
+
+.btn2 {
+  height: 25%;
+  width: 50%; }
+
+.btn2:hover {
   background-color: #b64d02;
   transition: 0.5s; }
 
@@ -310,6 +318,23 @@ footer {
 .accordion-button {
   background: #07280d;
   color: #ffffff; }
+
+.img_1 {
+  margin: 0; }
+  .img_1 .gracias {
+    margin: 0;
+    width: 100%;
+    height: 5%; }
+
+.img_2 {
+  margin: 0; }
+  .img_2 .construccion {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+    padding-bottom: 7%;
+    width: 80%;
+    height: 80%; }
 
 * {
   margin: 0;
