@@ -308,6 +308,12 @@ footer {
   margin-bottom: .4em; }
 
 /*fin de formularios*/
+.nosotros_descripcion {
+  font-size: 24px;
+  font-weight: 300;
+  color: #000000;
+  padding-bottom: 15%; }
+
 /*seccion de preguntas frecuentes*/
 .preguntasfrecuentes {
   margin-top: 80px; }
@@ -370,8 +376,7 @@ h2 {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  text-align: center;
-  /*---------------Pagina nosotros--------------------*/ }
+  text-align: center; }
   .hero__texts .hero__title {
     padding-top: 10%;
     font-size: 50px;
@@ -381,17 +386,8 @@ h2 {
     font-weight: 300;
     color: #ffffff;
     padding-bottom: 15%; }
-  .hero__texts .titulo_nosotros {
-    margin-top: 150px; }
-    .hero__texts .titulo_nosotros .conocenos {
-      margin: 150px; }
 
-.nosotros_descripcion {
-  font-size: 24px;
-  font-weight: 300;
-  color: #000000;
-  padding: 5%; }
-
+/*fin de titulos y subtitulos*/
 @media screen and (max-width: 600px) {
   .nav__logo {
     width: 30%;

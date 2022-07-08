@@ -26,6 +26,7 @@ body {
     
   
 }
+
 /*titulos y subtitulos*/
 h2 {
     color: nth($list: $colores, $n: 1 );
@@ -51,6 +52,6 @@ h2 {
     font-weight: 300;
     color: nth($list: $colores, $n: 1 );
     padding-bottom: 15%;
-    
+} 
 }
-//fin  de titulos//---------------
+/*fin de titulos y subtitulos*/ 
