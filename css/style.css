@@ -1,7 +1,7 @@
 /*Estilos de Navbar*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,700&display=swap");
 .nav {
-  width: 98%;
+  width: 100%;
   background: #07280d;
   height: 80px;
   color: #fff;
@@ -65,11 +65,6 @@
     transition: clip-path 1s ease-in-out; }
   .nav__imput:checked + .nav__menu {
     clip-path: circle(100% at center); } }
-
-@media screen and (max-width: 600px) {
-  .nav__logo {
-    width: 30%;
-    height: 80%; } }
 
 /*fin Estilos de Navbar*/
 /*Galeria*/
@@ -146,19 +141,18 @@
 
 /* fin seccion about us*/
 /*footer*/
-footer, .whatsapp {
-  position: fixed; }
-
 footer {
-  z-index: 300;
-  bottom: 0;
   width: 90%;
   background: #07280d;
   display: grid;
   grid-template-columns: 10px 1fr 10px;
-  color: #f2f2f2; }
+  color: #f2f2f2;
+  z-index: 300;
+  bottom: 0;
+  position: fixed; }
 
 .whatsapp {
+  position: fixed;
   width: 55px;
   height: 55px;
   line-height: 55px;
@@ -305,14 +299,10 @@ footer {
   font-size: 1.9rem;
   margin-bottom: .4em; }
 
-@media (max-width: 425px) {
-  .form-title {
-    font-size: 2rem; } }
-
 /*fin de formularios*/
 /*seccion de preguntas frecuentes*/
 .preguntasfrecuentes {
-  margin-top: 60px; }
+  margin-top: 80px; }
 
 .accordion {
   color: black; }
@@ -327,9 +317,10 @@ footer {
   box-sizing: border-box; }
 
 body {
-  height: 125vh;
-  padding: 15px;
-  font-family: 'Nunito', sans-serif; }
+  height: 100vh;
+  font-family: 'Nunito', sans-serif;
+  padding-bottom: 3em;
+  min-height: 100vh; }
 
 /*header*/
 .hero {
@@ -354,7 +345,8 @@ h2 {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  text-align: center; }
+  text-align: center;
+  /*---------------Pagina nosotros--------------------*/ }
   .hero__texts .hero__title {
     padding-top: 10%;
     font-size: 50px;
@@ -364,6 +356,25 @@ h2 {
     font-weight: 300;
     color: #ffffff;
     padding-bottom: 15%; }
+  .hero__texts .titulo_nosotros {
+    margin-top: 150px; }
+    .hero__texts .titulo_nosotros .conocenos {
+      margin: 150px; }
+
+.nosotros_descripcion {
+  font-size: 24px;
+  font-weight: 300;
+  color: #000000;
+  padding: 5%; }
+
+@media screen and (max-width: 600px) {
+  .nav__logo {
+    width: 30%;
+    height: 80%; } }
+
+@media (max-width: 425px) {
+  .form-title {
+    font-size: 2rem; } }
 
 @media screen and (max-width: 900px) {
   header {

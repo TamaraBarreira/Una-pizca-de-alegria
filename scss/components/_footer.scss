@@ -1,22 +1,22 @@
 /*footer*/
 $colorpaleta1: #07280d;
-%posision{
-    position: fixed;
-}
+
 
 footer{
-   @extend %posision;
-    z-index: 300;
-    bottom: 0;
+    
     width: 90%;
     background: $colorpaleta1 ;
     display: grid;
     grid-template-columns: 10px 1fr 10px;
     color: #f2f2f2;
+    z-index: 300;
+    bottom: 0;
+    position: fixed;
+    
 }
 
 .whatsapp {
-    @extend %posision;
+    position: fixed;
     width: 55px;
     height: 55px;
     line-height: 55px;

@@ -1,7 +1,7 @@
 /*Estilos de Navbar*/
 $colorpaleta1: #07280d;
 .nav {
-    width: 98%;
+    width: 100%;
     background: $colorpaleta1;
     height: 80px;
     color: #fff;
@@ -80,10 +80,5 @@ $colorpaleta1: #07280d;
         clip-path: circle(100% at center);
     }
 }
-@media screen and (max-width:600px){
-    .nav__logo{
-        width: 30%;
-        height: 80%;
-    }
-}
+
 /*fin Estilos de Navbar*/

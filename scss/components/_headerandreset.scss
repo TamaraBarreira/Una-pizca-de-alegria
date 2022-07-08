@@ -1,0 +1,72 @@
+//reset
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    font-family: 'Nunito', sans-serif;
+    padding-bottom: 3em ;
+    min-height: 100vh;
+}
+//fin de reset
+/*header*/
+.hero{
+    margin-top: 0%;
+    height: 100vh;
+    background-image:url(../multimedia/Imagenes/nenaportada_34_11zon.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    z-index: 200;
+    
+  
+}
+/*titulos y subtitulos*/
+h2 {
+    color: nth($list: $colores, $n: 1 );
+
+}
+
+.hero__texts {
+    background: nth($list: $colores , $n: 5);
+    margin-top: 15px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    .hero__title {
+        padding-top: 10%;
+        font-size: 50px;
+        color: nth($list: $colores, $n: 1 )
+    }
+    .hero__subtitle{
+    font-size: 30px;
+    font-weight: 300;
+    color: nth($list: $colores, $n: 1 );
+    padding-bottom: 15%;
+    
+}
+/*---------------Pagina nosotros--------------------*/
+.titulo_nosotros{
+    margin-top: 150px;
+    .conocenos{
+        margin: 150px;
+
+    }
+}
+
+}
+.nosotros_descripcion{
+    font-size: 24px;
+    font-weight: 300;
+    color: nth($list: $colortextos, $n: 2 );
+    padding: 5% ;
+
+}

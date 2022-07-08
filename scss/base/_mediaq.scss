@@ -1,0 +1,34 @@
+@media screen and (max-width:600px){
+    .nav__logo{
+        width: 30%;
+        height: 80%;
+    }
+}
+@media (max-width: 425px) {
+    .form-title{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 900px){
+    
+    header {
+        background-position: center; 
+    }
+    .servicio__cont{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .servicio__ind{
+        width: 100%;
+        text-align: center;
+        img {
+            width: 90%;
+        }
+    }
+    .servicio__ind:nth-child(1), .servicio__ind:nth-child(2){
+        margin-bottom: 60px;
+
+    }
+}
+
+
