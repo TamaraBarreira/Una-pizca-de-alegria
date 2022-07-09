@@ -1,6 +1,7 @@
 /*Estilos de Navbar*/
 $colorpaleta1: #07280d;
 .nav {
+    top: 0;
     width: 100%;
     background: $colorpaleta1;
     height: 80px;
@@ -12,7 +13,6 @@ $colorpaleta1: #07280d;
         display: flex;
         height: 100%;
         width: 90%;
-        margin: 0 auto;
         justify-content: space-between;
         align-items: center;
         .nav__logo{

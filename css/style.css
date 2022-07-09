@@ -1,6 +1,7 @@
 /*Estilos de Navbar*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,700&display=swap");
 .nav {
+  top: 0;
   width: 100%;
   background: #07280d;
   height: 80px;
@@ -11,7 +12,6 @@
     display: flex;
     height: 100%;
     width: 90%;
-    margin: 0 auto;
     justify-content: space-between;
     align-items: center; }
     .nav .nav__container .nav__logo {
@@ -350,7 +350,6 @@ footer {
 body {
   height: 100vh;
   font-family: 'Nunito', sans-serif;
-  padding-bottom: 3em;
   min-height: 100vh; }
 
 /*header*/
@@ -410,3 +409,22 @@ h2 {
       width: 90%; }
   .servicio__ind:nth-child(1), .servicio__ind:nth-child(2) {
     margin-bottom: 60px; } }
+
+@media screen and (max-width: 700px) {
+  .galeria {
+    grid-template-columns: 1fr; } }
+
+@media screen and (max-width: 700px) {
+  .hero__texts {
+    margin-top: 5%; }
+    .hero__texts .hero__title {
+      padding-top: 10%;
+      font-size: 30px; }
+    .hero__texts .hero__subtitle {
+      font-size: 20px;
+      padding-bottom: 15%; } }
+
+@media screen and (max-width: 700) {
+  .whatsapp {
+    bottom: 200px;
+    right: 15px; } }

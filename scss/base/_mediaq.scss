@@ -30,5 +30,28 @@
 
     }
 }
+@media screen and (max-width: 700px){
+    .galeria{
+        grid-template-columns: 1fr;
+    }
 
-
+}
+@media screen and (max-width:700px) {
+    .hero__texts {
+        margin-top: 5%;
+        .hero__title {
+            padding-top: 10%;
+            font-size: 30px;
+        }
+        .hero__subtitle{
+        font-size: 20px;
+        padding-bottom: 15%;
+    } 
+    }
+}
+@media screen and (max-width:700) {
+    .whatsapp {
+    bottom: 200px;
+    right: 15px;
+    }
+}
