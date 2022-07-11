@@ -55,3 +55,10 @@
     right: 15px;
     }
 }
+
+@media screen and (max-width:700){
+.nav__logo{
+    width: 25%;
+    height: 80%;
+}
+}
